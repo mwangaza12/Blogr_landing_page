@@ -341,7 +341,7 @@ body {
 
 .infrastructure-content {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
     max-width: 1200px;
@@ -382,7 +382,7 @@ body {
     background: white;
     border-radius: 20px;
     position: absolute;
-    right: -70px;
+    right: 20;
     top: 40px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
@@ -565,5 +565,13 @@ body {
 
     .section-title {
         font-size: 2rem;
+    }
+    .infrastructure-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .phone {
+        margin: 0 auto;
     }
 }
