@@ -323,9 +323,10 @@ body {
 .infrastructure {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
-    padding: 6rem 0;
+    padding: 1rem 0;
     position: relative;
     overflow: hidden;
+    border-radius: 0 10% 0 10%;
 }
 
 .infrastructure::before {
